@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Song
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Song\ here.\r\n\r\n\ @author\ (Garrett\ Harper)\r\n\ @version\ (8/19/2019)\r\n
+comment1.params=
+comment1.target=Song()
+comment2.params=title
+comment2.target=Song(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getTitle()
+comment4.params=t
+comment4.target=void\ setTitle(java.lang.String)
+numComments=5
