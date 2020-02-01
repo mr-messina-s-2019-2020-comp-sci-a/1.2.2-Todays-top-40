@@ -6,8 +6,18 @@
  * @version 3/5/16
  */
 public class ArrayMediaLib
+
+/**
+This is an added comment to show a change in the file.
+This is part of a GitHub test. 
+This is not for just checking answers
+ */
+{
+    public static void main(String[] args)
+=======
 {
     public static void main()
+
     {       
         /******* Part 2 *******/
         System.out.println("/******* Part 2 ******/");
