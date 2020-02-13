@@ -10,7 +10,7 @@ public class Song
 
     private String title;
     //private int rating;
-    //private double cost;
+    private double price;
     
     public Song()
 {
@@ -18,7 +18,7 @@ public class Song
     
     title  = "";
     
-    //cost = 0.0;
+    price = 0.0;
 }
 
     public Song(String title)
@@ -30,12 +30,13 @@ public String getTitle() {
 public void setTitle(String t) {
         title = t;
     }
-/*    public double getCost() {
- return cost;
+    public double getPrice() {
+ return price;
 }
-public void setCost(double c) {
-        cost = c;
+public void setPrice(double p) {
+        price = p;
 }
+/*
 public int getRating() {
     return rating;
 }

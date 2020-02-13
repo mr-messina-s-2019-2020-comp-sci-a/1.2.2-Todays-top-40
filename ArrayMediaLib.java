@@ -54,6 +54,22 @@ public class ArrayMediaLib
         for (int i = 0; i < topTenSongs.length; i += 2) {
             System.out.println(topTenSongs[i].getTitle());
         }
+        
+        for (int i = 0; i < topTenSongs.length; i++){
+            if ((i + 1) % 3 == 0) {
+                topTenSongs[i].setPrice(.99); }
+                else {
+                topTenSongs[i].setPrice(1.29); }
+                System.out.println(topTenSongs[i].getTitle() + " " + topTenSongs[i].getPrice());
+            }
+        int index = SongFinder.findTitle(topTenSongs, "newer song");
+        if (index >=0 ) {
+            System.out.println("Found " + topTenSongs[index].getTitle());
+        }
+        else  {
+            System.out.println("Song not found!");
+            System.out.println(index);
+        }
 }
 }
 
